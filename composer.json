@@ -1,9 +1,15 @@
 {
     "name": "neicod/neicod-object-manager",
     "description": "Automated dependency injection",
-    "license": "",
+    "license": "proprietary",
     "keywords": [
         "di"
+    ],
+    "authors": [
+        {
+            "name" : "Dominik Cienkuszewski",
+            "email": "dcienkuszewski@gmail.com"
+        }
     ],
     "require": {
         "php": "^7.1",
