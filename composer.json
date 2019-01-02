@@ -1,0 +1,25 @@
+{
+    "name": "neicod/neicod-object-manager",
+    "description": "Automated dependency injection",
+    "license": "",
+    "keywords": [
+        "di"
+    ],
+    "require": {
+        "php": "^7.1",
+        "zendframework/zend-config-aggregator": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Neicod\\ObjectManager\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Neicod\\ObjectManager\\": "test/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
